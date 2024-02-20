@@ -7,10 +7,12 @@ function About() {
 
 			<div className="about__container--text-container">
 				<div className="about__container--text-container--box">
-					<p className="about__container--text-container__title"><span>ABOUT</span> <span>SPORT</span></p>
+					<p className="about__container--text-container__title"><span>MY</span> <span>PHILOSOPHY</span></p>
 					<div className="about__container--text-container__underline-dig"></div>
 					<div className="about__container--text-container__underline-thin"></div>
-					<div className="about__container--text-container__text-about">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</div>
+					<div className="about__container--text-container__text-about">It is an interplay that is as fascinating as it is complex: muscles, joints and the spine keep us flexible and do everything we want to.
+						Almost as if by itself. But if something gets "messed up" in this system, it can have painful and even chronic effects on the entire body.
+						Often also on our entire life. As a coach, it is my job to minimize these effects or, at best, to prevent them entirely through targeted prevention.</div>
 				</div>
 			</div>
 
