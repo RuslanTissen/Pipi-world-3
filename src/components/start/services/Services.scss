@@ -1,0 +1,151 @@
+.service {
+	background-color: rgb(90, 54, 58);
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	padding: 3.5rem clamp(2rem, 3vw, 3rem) 2.5rem;
+	.service__title-box {
+		.service__title-box--title {
+			text-transform: uppercase;
+			font-size: clamp(2.5rem, 5vw, 3rem);
+			font-weight: 800;
+			letter-spacing: 0.3rem;
+			margin: 1rem 0;
+		}
+		.service__title-box--underline-dig {
+			background-color: rgb(166, 148, 148);
+			width: clamp(150px, 35vw, 400px);
+			height: 0.7rem;
+		}
+		.service__title-box--underline-thin {
+			background-color: rgb(166, 148, 148);
+			width: auto;
+			height: 1px;
+		}
+		.service__link {
+			display: flex;
+			width: clamp(250px, 50vw, 500px);
+			margin: 2rem auto 5rem 0;
+			padding: 1rem clamp(0.5rem, 5vw, 500px);
+			height: fit-content;
+			justify-content: center;
+			align-items: center;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: 0.3rem;
+			font-size: clamp(0.8rem, 4vw, 1.5rem);
+			color: black;
+			text-decoration: none;
+			background-color: rgb(232, 192, 97);
+			text-align: center;
+		}
+	}
+	.exercises {
+		display: flex;
+		flex-direction: column;
+		.img1 {
+			// height: 50vh;
+			height: clamp(500px, calc(100vw - 300px), 1200px);
+			width: 90vw;
+			background-image: url("../../../images/MeetPipi.jpg");
+			// background-position: center;
+			// background-position: top clamp(-350px, 20vw, 0vw) center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			object-fit: contain;
+			transition: all 0.3s ease-in-out;
+			opacity: 0.7;
+		}
+		.img1:hover {
+			opacity: 1;
+		}
+		.exercises__text-cont {
+			padding: 2rem 1rem 2rem clamp(1.5rem, 6vw, 3rem);
+			.exercises__title {
+				font-size: clamp(1rem, 2vw, 2.5rem);
+				font-weight: 800;
+				letter-spacing: 0.3rem;
+				overflow: hidden;
+			}
+			.exercises__text {
+				font-size: 1rem;
+				padding: 2rem 0;
+				border-bottom: 1px solid white;
+			}
+			.exercises__link {
+				display: flex;
+				width: clamp(150px, 50vw, 500px);
+				margin: clamp(3rem, 8vw, 5rem) auto 3rem 0;
+				padding: 1rem clamp(0.5rem, 5vw, 500px);
+				height: fit-content;
+				justify-content: center;
+				align-items: center;
+				text-transform: uppercase;
+				font-weight: 700;
+				letter-spacing: 0.3rem;
+				font-size: clamp(0.8rem, 4vw, 1.5rem);
+				color: black;
+				text-decoration: none;
+				background-color: rgb(232, 192, 97);
+				text-align: center;
+				transition: all 0.3s ease-in-out;
+			}
+			.exercises__link:hover {
+				background-color: rgb(142, 117, 58);
+			}
+		}
+	}
+}
+@media (min-width: 1060px) {
+	.service {
+		// width: 100vw;
+		display: flex;
+		flex-wrap: wrap;
+		gap: clamp(1.5rem, 3vw, 2rem);
+		.service__title-box{
+			flex: 1 1 100vw;
+		}
+		.exercises {
+			flex: 1 1 30%;
+			.img1{
+				width: inherit;
+				height: calc(100vw - 700px);
+			}
+			.exercises__text-cont {
+				padding: 0;
+				height: fit-content;
+				.exercises__title {
+					font-size: clamp(1rem, 2vw, 1.5rem);
+					font-weight: 800;
+					letter-spacing: 0.3rem;
+					overflow: hidden;
+				}
+				.exercises__text {
+					font-size: 1rem;
+					padding: 2rem 0;
+					border-bottom: 1px solid white;
+				}
+				.exercises__link {
+					display: flex;
+					width: clamp(150px, 50vw, 300px);
+					margin: clamp(3rem, 8vw, 5rem) auto 3rem auto;
+					padding: 1rem clamp(0.5rem, 5vw, 50px);
+					height: fit-content;
+					justify-content: center;
+					align-items: center;
+					text-transform: uppercase;
+					font-weight: 700;
+					letter-spacing: 0.3rem;
+					font-size: clamp(0.8rem, 4vw, 1.5rem);
+					color: black;
+					text-decoration: none;
+					background-color: rgb(232, 192, 97);
+					text-align: center;
+					transition: all 0.3s ease-in-out;
+				}
+				.exercises__link:hover {
+					background-color: rgb(142, 117, 58);
+				}
+			}
+		}
+	}
+}
