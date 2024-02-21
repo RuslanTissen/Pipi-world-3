@@ -3,9 +3,9 @@
 	flex-direction: column;
 	.about__container--text-container {
 		flex: 1 1 100%;
-		background-color: rgb(90, 54, 58);
+		background-color: #F3EBDD;
 		font-family: "Open Sans", sans-serif;
-		color: white;
+		color: black;
 		padding: 0 clamp(2rem, 3vw, 3rem);
 		.about__container--text-container--box {
 			margin: 5rem auto 6rem auto;
@@ -19,19 +19,19 @@
 			.about__container--text-container__underline-dig {
 				width: 180px;
 				height: 0.7rem;
-				background-color: rgb(166, 148, 148);
+				background-color: rgb(112, 108, 108);
 			}
 			.about__container--text-container__underline-thin {
 				width: auto;
 				height: 1px;
-				background-color: rgb(166, 148, 148);
+				background-color: rgb(125, 122, 122);
 			}
 			.about__container--text-container__text-about {
 				max-width: 550px;
 				margin-top: 3rem;
 				font-size: 1rem;
 				font-weight: 100;
-				color: rgb(221, 220, 220);
+				color: rgb(34, 33, 33);
 				// line-height: 180%;
 			}
 		}

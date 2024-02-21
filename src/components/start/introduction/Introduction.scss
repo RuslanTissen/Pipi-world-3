@@ -41,11 +41,11 @@
 		margin: 0rem clamp(2rem, 3vw, 3rem);
 		font-style: italic;
 	}
-	.introduction__container--button {
+	.container--button {
 		height: 3rem;
 		display: flex;
 		margin: 5rem clamp(2rem, 3vw, 3rem) 6rem;
-		.introduction__container--button-text {
+		.container--button-text {
 			height: inherit;
 			display: flex;
 			justify-content: center;
@@ -61,7 +61,7 @@
 			letter-spacing: 2px;
 			word-spacing: 5px;
 		}
-		.introduction__container--button-arrow {
+		.container--button-arrow {
 			height: inherit;
 			display: flex;
 			justify-content: center;
@@ -91,6 +91,7 @@
 					font-size: 1.5rem;
 					margin-bottom: 0.5rem;
 					width: fit-content;
+					color: rgb(114, 114, 117);
 				}
 			}
 			.introduction__container--social-media--scroll-container {
@@ -101,7 +102,7 @@
 				margin: auto 0;
 				p {
 					width: inherit;
-					color: rgb(204, 201, 201);
+					color: rgb(119, 119, 121);
 					display: flex;
 					justify-content: center;
 					align-items: center;
@@ -122,16 +123,16 @@
 			max-width: 800px;
 			margin: 0.5rem clamp(5rem, 10vw, 10rem);
 		}
-		.introduction__container--button {
+		.container--button {
 			margin: 7rem clamp(5rem, 10vw, 10rem) 10rem;
 			z-index: 100;
-			.introduction__container--button-text {
+			.container--button-text {
 				transition: all 0.3s ease-in-out;
 			}
-		}
-		.introduction__container--button .introduction__container--button-text:hover {
-			background-color: rgb(102, 101, 101);
-			color: white;
+			.container--button-text:hover {
+				background-color: rgb(102, 101, 101);
+				color: white;
+			}
 		}
 	}
 }
