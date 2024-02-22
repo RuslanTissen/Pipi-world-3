@@ -21,7 +21,7 @@ function Start() {
 
 			{/* <Clients /> */}
 
-			<Services />
+			{/* <Services /> */}
 
 			<Motto/>
 
