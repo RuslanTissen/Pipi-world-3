@@ -28,7 +28,7 @@ function Introduction() {
 				</div>
 			</div>
 			<p className='introduction__container--moto'>Maximize Your Full Potential.</p>
-			<p className='introduction__container--moto-italice'>Take control of your body through discipline</p>
+			<p className='introduction__container--moto-italice'>Take control of your body through discipline and love.</p>
 			<div className="container--button">
 				<NavLink className="container--button-text" to="Contact" onClick={scrollToTheTop}>Book now </NavLink>
 				<NavLink className="container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
