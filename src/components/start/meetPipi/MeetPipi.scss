@@ -1,7 +1,7 @@
 .meet-pipi__container {
 	// background-color: rgb(45, 46, 45);
-	background-color: #b1bfda;
-	color: black;
+	background-color: rgb(45, 46, 45);
+	color: white;
 	font-family: "Open Sans", sans-serif;
 
 	.meet-pipi__container-title-box {
@@ -31,7 +31,7 @@
 			// max-width: 800px;
 			// height: clamp(10vh, 60vh, 1200px);
 			height: 50vh;
-			background-image: url("../../../images/pipi-foto.jpg");
+			background-image: url("../../../images/pipi-meet.jpg");
 			// background-position: top clamp(-350px, -40vw, 0vw) center;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -54,12 +54,15 @@
 		.meet-pipi__container-1--text-box--info {
 			font-size: clamp(1.2rem, 3vw, 1.3rem);
 			font-weight: 300;
-			color: rgb(48, 47, 47);
+			color: rgb(248, 243, 243);
 		}
-		.meet-pipi__container-1--text-box--btn {
+		.meet-pipi__container--button {
 			height: 3rem;
 			display: flex;
-			.meet-pipi__container-1--text-box--btn-white {
+			justify-content: center;
+			margin: 5rem auto 6rem auto;
+			position: relative;
+			.meet-pipi__container--button-text {
 				height: inherit;
 				display: flex;
 				justify-content: center;
@@ -69,18 +72,20 @@
 				text-decoration: none;
 				background-color: white;
 				font-size: clamp(1rem, 3vw, 1.3rem);
+				border: none;
 				text-transform: uppercase;
 				font-weight: 800;
 				letter-spacing: 2px;
 				word-spacing: 5px;
 			}
-			.meet-pipi__container-1--text-box--btn-gray {
+			.meet-pipi__container--button-arrow {
 				height: inherit;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				padding: 0 0.8rem;
 				font-size: clamp(1rem, 3vw, 1.3rem);
+				border: none;
 				color: rgb(45, 46, 45);
 				background-color: #e8c061;
 			}
@@ -141,35 +146,17 @@
 				// color: rgb(255, 253, 253);
 				margin: 3.5rem auto;
 			}
-			.meet-pipi__container-1--text-box--btn {
-				height: 3rem;
-				display: flex;
-				width: fit-content;
-				margin: 0 auto;
-				.meet-pipi__container-1--text-box--btn-white {
-					height: inherit;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					padding: 0 1.5rem;
-					color: rgb(45, 46, 45);
-					text-decoration: none;
-					background-color: white;
-					font-size: clamp(1rem, 3vw, 1.3rem);
-					text-transform: uppercase;
-					font-weight: 800;
-					letter-spacing: 2px;
-					word-spacing: 5px;
+			.meet-pipi__container--button {
+				// height: 3rem;
+				// display: flex;
+				// width: fit-content;
+				// margin: 0 auto;
+				.meet-pipi__container--button-text {
+					transition: all 0.3s ease-in-out;
 				}
-				.meet-pipi__container-1--text-box--btn-gray {
-					height: inherit;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					padding: 0 0.8rem;
-					font-size: clamp(1rem, 3vw, 1.3rem);
-					color: rgb(45, 46, 45);
-					background-color: #e8c061;
+				.meet-pipi__container--button-text:hover {
+					background-color: rgb(102, 101, 101);
+					color: white;
 				}
 			}
 		}
