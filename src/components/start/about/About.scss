@@ -1,6 +1,7 @@
 .about__container {
 	display: flex;
 	flex-direction: column;
+	border-bottom: 1px solid rgb(37,24,18);
 	.about__container--text-container {
 		flex: 1 1 100%;
 		background-color: rgb(191, 134, 127);
@@ -14,14 +15,13 @@
 				font-weight: 700;
 				font-weight: 800;
 				letter-spacing: 0.3rem;
-				margin-bottom: 0;
+				margin-bottom: 1rem;
 				text-transform: uppercase;
 			}
 			.about__container--text-container__underline-dig {
 				width: clamp(180px, 20vw, 350px);
 				height: 0.7rem;
 				background-color: rgb(112, 108, 108);
-				margin-top: 1rem;
 			}
 			.about__container--text-container__underline-thin {
 				width: auto;
