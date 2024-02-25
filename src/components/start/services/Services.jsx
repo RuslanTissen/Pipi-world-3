@@ -19,13 +19,14 @@ function Services() {
 				exeText={`This 1-on-1 session is built for individual athletes`}
 				
 			/>
-			<Exercises
+
+			{/* <Exercises
 				exeImg={`img1`}
 				exeTitle={`GROUP SESSIONS`}
 				exeText={`Create winning chemistry for your team`}
-			/>
+			/> */}
 			<Exercises
-				exeImg={`img1`}
+				exeImg={`img2`}
 				exeTitle={`WORKSHOPS & PRESENTATIONS`}
 				exeText={`Education for athletes, teams and coaches.`}
 			/>

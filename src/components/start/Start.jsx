@@ -15,13 +15,13 @@ function Start() {
 
 			<About />
 
-			<Motto/>
+			<Services />
 
 			<Pricing />
 
+			<Motto/>
 
 			{/* <Clients /> */}
-			{/* <Services /> */}
 			{/* <MeetPipi /> */}
 
 
