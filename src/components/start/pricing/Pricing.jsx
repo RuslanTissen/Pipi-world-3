@@ -10,7 +10,7 @@ function Pricing() {
 	}
 
 	return (
-		<div className='success'>
+		<div className='success' id='pricing'>
 
 			<div className="success-title-box">
 				<div className="success-title-box-cont">

@@ -9,7 +9,7 @@ function About() {
 	}
 
 	return (
-		<div className="about__container">
+		<div className="about__container" id='coach'>
 
 			<div className="about__container--text-container">
 				<div className="about__container--text-container--box">

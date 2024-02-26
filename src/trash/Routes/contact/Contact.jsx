@@ -3,8 +3,8 @@ import "./Contact.scss"
 import { BsWhatsapp } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
 import { IoIosMail } from "react-icons/io"
-import trans from "../../Translate.js"
-import { Context } from '../../Context';
+import trans from "../../../components/Translate.js"
+import { Context } from '../../../components/Context.js';
 import { SiUpwork } from "react-icons/si";
 import { FaInstagram } from 'react-icons/fa'
 

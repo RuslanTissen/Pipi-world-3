@@ -1,9 +1,9 @@
 const trans = {
 	en: {
 		about: "about",
-		services: "services",
+		coach: "coach",
 		plans: "plans",
-		onlinePrograms: "online programs",
+		straching: "straching",
 		contact: "contact",
 		// Footer
 		footerContact: "BOOK NOW",
