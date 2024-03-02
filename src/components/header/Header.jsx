@@ -60,7 +60,7 @@ function Header() {
 					{/* <li className='first-li humburger-menu__container--link'><a to="About" onClick={scrollToTheTop}>{trans[lang].about}</a> </li> */}
 					<li className='second-li humburger-menu__container--link'><a href='#coach' onClick={scrollToTheTop}>{trans[lang].coach}</a> </li>
 					<li className='li__career humburger-menu__container--link'><a href="#pricing" onClick={scrollToTheTop}>{trans[lang].plans}</a> </li>
-					<li className='li__about humburger-menu__container--link'><a to='straching' onClick={scrollToTheTop}>{trans[lang].straching}</a></li>
+					<li className='li__about humburger-menu__container--link'><a href='#straching' onClick={scrollToTheTop}>{trans[lang].straching}</a></li>
 					<li className='li__contact humburger-menu__container--link'><a href="#contact" onClick={scrollToTheTop}>{trans[lang].contact}</a> </li>
 					<li className='li__burger sprachen humburger-menu__container--link'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
@@ -79,7 +79,7 @@ function Header() {
 						{/* <li className='li2 lis'><a to="About" onClick={scrollToTheTop}>{trans[lang].about}</a></li> */}
 						<li className='li3 lis'><a href='#coach' onClick={scrollToTheTop}>{trans[lang].coach}</a></li>
 						<li className='li5 lis'><a href="#pricing" onClick={scrollToTheTop}>{trans[lang].plans}</a> </li>
-						<li className='li4 lis'><a to='straching' onClick={scrollToTheTop}>{trans[lang].straching}</a> </li>
+						<li className='li4 lis'><a href='#straching' onClick={scrollToTheTop}>{trans[lang].straching}</a> </li>
 						<li className='li6 lis'><a href="#contact"  onClick={scrollToTheTop}>{trans[lang].contact}</a> </li>
 						<li className="dropdown" ref={languageRef} data-dropdown onClick={() => languagesFunction()}>
 							<button className='link' data-dropdown-button><BsGlobe /></button>

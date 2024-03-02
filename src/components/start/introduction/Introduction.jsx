@@ -27,7 +27,7 @@ function Introduction() {
 					<p>SCROLL <FaArrowRight /></p>
 				</div>
 			</div>
-			<p className='introduction__container--moto'>Maximize Your Full Potential.</p>
+			<p className='introduction__container--moto'>Maximize Your Full Potential</p>
 			<p className='introduction__container--moto-italice'>Take control of your body through discipline and love.</p>
 			<div className="container--button">
 				<NavLink className="container--button-text" to="Contact" onClick={scrollToTheTop}>Book now </NavLink>

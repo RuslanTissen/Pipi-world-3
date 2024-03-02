@@ -4,10 +4,10 @@
 	.straching__image-container {
 		width: 100%;
 		height: 700px;
-		background-image: url("../../../images/pipi-strch-2.jpg");
+		background-image: url("../../../images/pipi-strch-1.jpeg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		// background-position: center;
+		background-position: center;
 	}
 	.straching__text-container {
 		flex: 1 1 100%;
@@ -114,7 +114,7 @@
 				.straching__button--text {
 					transition: all 0.3s ease-in-out;
 				}
-				.straching__button--arrow {
+				.straching__button--text:hover{
 					background-color: rgb(102, 101, 101);
 					color: white;
 				}
