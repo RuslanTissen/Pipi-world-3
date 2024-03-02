@@ -5,9 +5,6 @@ import { SiGmail, SiUpwork } from "react-icons/si";
 
 
 function Contact() {
-	// const scrollToTheTop = () => {
-	// 	window.scroll(0, 0)
-	// }
 
 	return (
 		<div className='contact' id='contact'>
