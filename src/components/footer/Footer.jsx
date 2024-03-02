@@ -24,7 +24,7 @@ function Footer() {
 			<div className="footer__logo footer__operation--block">
 				<h2 className='footer__logo--logo-box' ><NavLink to="*" onClick={scrollToTheTop}><span>PIPI` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink></h2>
 
-				<p>Copyright © 2024 by <a href="https://tissen.tech/" target='_blank'>Tissen Studio</a> Powered</p>
+				<p>Copyright © 2024 by <a href="https://tissen.tech/" target='_blank'>Tissen Studio</a> powered</p>
 
 			</div>
 		</div>
