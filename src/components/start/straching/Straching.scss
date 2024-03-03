@@ -11,7 +11,7 @@
 	}
 	.straching__text-container {
 		flex: 1 1 100%;
-		background-color: rgb(191, 134, 127);
+		background-color: #a4757b;
 		font-family: "Open Sans", sans-serif;
 		color: white;
 		padding: 0 clamp(2rem, 3vw, 3rem);
@@ -44,7 +44,7 @@
 			.straching__button {
 				height: 3rem;
 				display: flex;
-				margin: 5rem clamp(2rem, 3vw, 3rem) 6rem 0;
+				margin: 5rem clamp(2rem, 3vw, 3rem) 4rem 0;
 				position: relative;
 				.straching__button--text {
 					height: inherit;
@@ -76,15 +76,18 @@
 			}
 			.straching__price-box {
 				display: flex;
-				span:nth-child(2) {
+				span:nth-child(2n) {
 					font-size: 3rem;
 					font-weight: 800;
 					letter-spacing: 0.3rem;
 				}
 			}
+			.straching__needs {
+				font-style: italic;
+				margin-top: 0;
+			}
 			.straching__languages {
 				max-width: 550px;
-				margin-top: 0;
 				font-size: 1.2rem;
 				font-weight: 100;
 			}
@@ -114,7 +117,7 @@
 				.straching__button--text {
 					transition: all 0.3s ease-in-out;
 				}
-				.straching__button--text:hover{
+				.straching__button--text:hover {
 					background-color: rgb(102, 101, 101);
 					color: white;
 				}

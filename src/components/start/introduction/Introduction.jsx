@@ -1,11 +1,11 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Introduction.scss"
 import { FaWhatsapp, FaInstagram, FaArrowRight } from 'react-icons/fa'
 import { SiGmail, SiUpwork } from "react-icons/si";
 import { Context } from '../../Context'
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom';
-// import trans from '../../Translate.js';
+import trans from '../../Translate.js';
 
 function Introduction() {
 	const { lang, setLang } = useContext(Context)
@@ -27,10 +27,10 @@ function Introduction() {
 					<p>SCROLL <FaArrowRight /></p>
 				</div>
 			</div>
-			<p className='introduction__container--moto'>Maximize Your Full Potential</p>
-			<p className='introduction__container--moto-italice'>Take control of your body through discipline and love.</p>
+			<p className='introduction__container--moto'>{trans[lang].introTitle}	</p>
+			<p className='introduction__container--moto-italice'> {trans[lang].introText}</p>
 			<div className="container--button">
-				<NavLink className="container--button-text" to="Contact" onClick={scrollToTheTop}>Book now </NavLink>
+				<NavLink className="container--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].introBook}</NavLink>
 				<NavLink className="container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
 			</div>
 		</div>

@@ -3,12 +3,12 @@
 	font-family: "Open Sans", sans-serif;
 	padding: 7rem clamp(2rem, 3vw, 3rem) 5rem;
 	background-color: rgb(45, 46, 45);
-	background-image: linear-gradient(90deg, rgba(49, 48, 49, 0.7), rgba(54, 54, 54, 0.7)),
-		url("../../../images/pipi-strch-2.jpg");
-	background-attachment: fixed;
+	background-image: 
+	// linear-gradient(90deg, rgba(49, 48, 49, 0.7), rgba(54, 54, 54, 0.7)),
+		url("../../../images/pipi_contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	background-position: center;
 	.contact__title-box {
 		.contact__title-box--title {
 			text-transform: uppercase;
@@ -30,7 +30,7 @@
 		}
 	}
 	.contact__media {
-		height: 50vh;
+		height: fit-content;
 		display: flex;
 		align-items: start;
 		flex-direction: row;
@@ -40,5 +40,41 @@
 			font-size: clamp(1.5rem, 7vw, 7rem);
 			color: white;
 		}
+	}
+}
+@media (min-width: 400px) {
+	.contact {
+		height: 500px;
+	}
+}
+@media (min-width: 500px) {
+	.contact {
+		height: 600px;
+	}
+}
+@media (min-width: 600px) {
+	.contact {
+		height: 700px;
+	}
+}
+@media (min-width: 700px) {
+	.contact {
+		height: 800px;
+	}
+}
+@media (min-width: 800px) {
+	.contact {
+		height: 900px;
+	}
+}
+@media (min-width: 900px) {
+	.contact {
+		height: 1000px;
+	}
+}
+@media (min-width: 1060px) {
+	.contact {
+		background-attachment: fixed;
+		background-position: top (-35vh) center;
 	}
 }

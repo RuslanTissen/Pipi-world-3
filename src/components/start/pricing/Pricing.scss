@@ -1,6 +1,6 @@
 .success {
 	color: white;
-	background-color: rgb(191, 134, 127);
+	background-color: #A4757B;
 	display: flex;
 	flex-direction: column;
 	font-family: "Open Sans", sans-serif;
@@ -47,30 +47,32 @@
 		padding: 5rem clamp(2rem, 3vw, 3rem) 6rem;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: start;
 		.price__box {
 			display: flex;
-			// span:nth-child(1) {
-			// }
+			margin-left: 2rem;
 			span:nth-child(2) {
 				font-size: 3rem;
 				font-weight: 800;
 				letter-spacing: 0.3rem;
 			}
 		}
+		p {
+			margin-left: 2rem;
+		}
 		.success__price--button {
 			height: 3rem;
 			display: flex;
-			margin: 1rem auto;
+			margin: 1rem 0 0 2rem;
+			background-color: white;
 			.success__price--button-text {
 				height: inherit;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				padding: 0 1.5rem;
-				color: rgb(45, 46, 45);
+				color: #4c26f5;
 				text-decoration: none;
-				background-color: white;
 				font-size: clamp(1rem, 3vw, 1.3rem);
 				border: none;
 				text-transform: uppercase;
@@ -86,20 +88,20 @@
 				padding: 0 0.8rem;
 				font-size: clamp(1rem, 3vw, 1.3rem);
 				border: none;
-				color: rgb(45, 46, 45);
-				background-color: #e8c061;
+				color: #4c26f5;
+				// background-color: white;
 			}
 		}
 		.success__price--text-box {
 			ul {
 				display: flex;
 				flex-direction: column;
-				align-items: center;
+				// align-items: flex-start;
 				li {
 					width: fit-content;
 					list-style-type: circle;
 					font-size: 1.2rem;
-					margin: 0.5rem auto;
+					margin: 0.5rem 0;
 					font-style: italic;
 					text-transform: lowercase;
 				}
@@ -172,13 +174,17 @@
 			justify-content: center;
 			.success__price--button {
 				position: relative;
+				transition: all 0.3s ease-in-out;
 				.success__price--button-text {
 					transition: all 0.3s ease-in-out;
 				}
-				.success__price--button-text:hover {
-					background-color: rgb(102, 101, 101);
-					color: white;
-				}
+			}
+			.success__price--button:hover {
+				background-color: rgb(175, 173, 173);
+				// color: #755bec;
+			}
+			.success__price--button:hover {
+				color: #441dee;
 			}
 		}
 	}

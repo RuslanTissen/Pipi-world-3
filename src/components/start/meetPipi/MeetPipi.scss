@@ -55,6 +55,7 @@
 			justify-content: center;
 			margin: 5rem auto 6rem auto;
 			position: relative;
+			background-color: white;
 			.meet-pipi__container--button-text {
 				height: inherit;
 				display: flex;
@@ -63,7 +64,7 @@
 				padding: 0 1.5rem;
 				color: rgb(45, 46, 45);
 				text-decoration: none;
-				background-color: white;
+				// background-color: white;
 				font-size: clamp(1rem, 3vw, 1.3rem);
 				border: none;
 				text-transform: uppercase;
@@ -80,7 +81,6 @@
 				font-size: clamp(1rem, 3vw, 1.3rem);
 				border: none;
 				color: rgb(45, 46, 45);
-				background-color: #e8c061;
 			}
 		}
 	}

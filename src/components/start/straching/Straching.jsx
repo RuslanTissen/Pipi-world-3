@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Straching.scss"
 import { FaArrowRight } from 'react-icons/fa'
 import { NavLink } from 'react-bootstrap'
+import { Context } from '../../Context.js'
+import trans from '../../Translate.js'
 
 function Straching() {
+	const { lang} = useContext(Context)
+
 	const scrollToTheTop = () => {
 		window.scroll(0, 0)
 	}
@@ -15,20 +19,18 @@ function Straching() {
 
 			<div className="straching__text-container">
 				<div className="straching__text-container--box">
-					<p className="straching__text-container--title"><span>stretching  </span> <span>course</span></p>
+					<p className="straching__text-container--title"><span>{trans[lang].stretching}  </span> <span>{trans[lang].stretchingCourse}</span></p>
 					<div className="straching__text-container--underline-dig"></div>
 					<div className="straching__text-container--underline-thin"></div>
-					<div className="straching__text-container--text-about">The Stretching Course, developed by Pipi, offers a unique approach to improving flexibility and well-being.
-						With Pipi's expertise, participants are guided through innovative stretching techniques designed to enhance range of motion and reduce muscle tension.
-						This course empowers individuals to prioritize self-care and unlock their body's potential for improved mobility and overall health.
-					</div>
+					<div className="straching__text-container--text-about">{trans[lang].stretchingText}					</div>
+					<p className='straching__languages'>{trans[lang].stretchingAvailable}<font color="rgb(163,84,89); font-weight: 800"> {trans[lang].stretchingSpanish} </font>{trans[lang].stretchingAnd}  <font color="rgb(163,84,89);  font-weight: 800"> {trans[lang].stretchingEnglish}</font></p>
 					<div className="straching__button">
-						<NavLink className="straching__button--text" to="Contact" onClick={scrollToTheTop}>Book now </NavLink>
+						<NavLink className="straching__button--text" to="Contact" onClick={scrollToTheTop}>{trans[lang].stretchingStart}</NavLink>
 						<NavLink className="straching__button--arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
 					</div>
-
-					<div className="straching__price-box"><span>$</span><span>25</span> </div>
-					<p className='straching__languages'>Available in both Spanish and English</p>
+					{/* <p className='straching__languages'>The price is flexible, either </p> */}
+					<div className="straching__price-box"><span>$</span><span>25 -</span> <span> $</span><span> 60</span> </div>
+					<p className='straching__needs'>({trans[lang].stretchingBased}) </p>
 				</div>
 			</div>
 

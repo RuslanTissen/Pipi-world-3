@@ -5,7 +5,7 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
 import trans from '../Translate.js';
-import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import { BsGlobe } from "react-icons/bs"
 
 function Header() {
@@ -57,8 +57,7 @@ function Header() {
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
 				{show && <ul className="humburger-menu__container" onClick={() => myFunction()}>
-					{/* <li className='first-li humburger-menu__container--link'><a to="About" onClick={scrollToTheTop}>{trans[lang].about}</a> </li> */}
-					<li className='second-li humburger-menu__container--link'><a href='#coach' onClick={scrollToTheTop}>{trans[lang].coach}</a> </li>
+					<li className='humburger-menu__container--link'><a href='#coach' onClick={scrollToTheTop}>{trans[lang].coach}</a> </li>
 					<li className='li__career humburger-menu__container--link'><a href="#pricing" onClick={scrollToTheTop}>{trans[lang].plans}</a> </li>
 					<li className='li__about humburger-menu__container--link'><a href='#straching' onClick={scrollToTheTop}>{trans[lang].straching}</a></li>
 					<li className='li__contact humburger-menu__container--link'><a href="#contact" onClick={scrollToTheTop}>{trans[lang].contact}</a> </li>
