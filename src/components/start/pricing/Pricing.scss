@@ -1,6 +1,6 @@
 .success {
 	color: white;
-	background-color: #A4757B;
+	background-color: #a4757b;
 	display: flex;
 	flex-direction: column;
 	font-family: "Open Sans", sans-serif;
@@ -71,7 +71,7 @@
 				justify-content: center;
 				align-items: center;
 				padding: 0 1.5rem;
-				color: #4c26f5;
+				color: rgb(45, 46, 45);
 				text-decoration: none;
 				font-size: clamp(1rem, 3vw, 1.3rem);
 				border: none;
@@ -88,8 +88,8 @@
 				padding: 0 0.8rem;
 				font-size: clamp(1rem, 3vw, 1.3rem);
 				border: none;
-				color: #4c26f5;
-				// background-color: white;
+				color: rgb(45, 46, 45);
+				background-color: #e8c061;
 			}
 		}
 		.success__price--text-box {
@@ -173,18 +173,15 @@
 			flex: 1 1 33%;
 			justify-content: center;
 			.success__price--button {
-				position: relative;
-				transition: all 0.3s ease-in-out;
+				// position: relative;
+				// transition: all 0.3s ease-in-out;
 				.success__price--button-text {
 					transition: all 0.3s ease-in-out;
 				}
-			}
-			.success__price--button:hover {
-				background-color: rgb(175, 173, 173);
-				// color: #755bec;
-			}
-			.success__price--button:hover {
-				color: #441dee;
+				.success__price--button-text:hover {
+					background-color: rgb(102, 101, 101);
+					color: white;
+				}
 			}
 		}
 	}
