@@ -1,14 +1,8 @@
 import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
-import { SiGmail, SiUpwork } from "react-icons/si";
 import { IoDiamondSharp } from "react-icons/io5";
-// import trans from '../Translate.js';
-
-
 import trans from '../Translate.js';
 import { Context } from '../Context'
-
 import "./Footer.scss"
 
 function Footer() {
@@ -24,7 +18,7 @@ function Footer() {
 			<div className="footer__logo footer__operation--block">
 				<h2 className='footer__logo--logo-box' ><NavLink to="*" onClick={scrollToTheTop}><span>PIPI` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink></h2>
 
-				<p>Copyright © 2024 by <a href="https://tissen.tech/" target='_blank'>Tissen Studio</a> powered</p>
+				<p>{trans[lang].footerCopyright} <a href="https://tissen.tech/" target='_blank'>{trans[lang].footerTissen}</a> {trans[lang].footerPowered}</p>
 
 			</div>
 		</div>

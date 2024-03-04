@@ -31,28 +31,23 @@ const trans = {
 		pricingLearn: "Learn the Art of Rehabilitation",
 
 		//Stretching
-		stretching:"stretching",
-		stretchingCourse:"course",
-		stretchingText:"The Stretching Course, developed by Pipi, offers a unique approach to improving flexibility and well-being.		With Pipi's expertise, participants are guided through innovative stretching techniques designed to enhance range of motion and reduce muscle tension.		This course empowers individuals to prioritize self-care and unlock their body's potential for improved mobility and overall health.",
-		stretchingAvailable:"Available in both",
-		stretchingSpanish:"Spanish",
-		stretchingAnd:"and",
-		stretchingEnglish:"English",
-		stretchingStart:"start now",
-		stretchingBased:"based on your needs*",
+		stretching: "stretching",
+		stretchingCourse: "course",
+		stretchingText: "The Stretching Course, developed by Pipi, offers a unique approach to improving flexibility and well-being.		With Pipi's expertise, participants are guided through innovative stretching techniques designed to enhance range of motion and reduce muscle tension.		This course empowers individuals to prioritize self-care and unlock their body's potential for improved mobility and overall health.",
+		stretchingAvailable: "Available in both",
+		stretchingSpanish: "Spanish",
+		stretchingAnd: "and",
+		stretchingEnglish: "English",
+		stretchingStart: "start now",
+		stretchingBased: "based on your needs*",
 
 		// CONTACT
-
-
-
+		contact: "MY Contacts",
 
 		// Footer
-		footerContact: "BOOK NOW",
-
-
-
-
-
+		footerCopyright: "Copyright © 2024 by",
+		footerTissen: "Tissen Studio",
+		footerPowered: "powered"
 	},
 	es: {
 		coach: "entrenadora",
@@ -86,17 +81,24 @@ const trans = {
 		pricingLearn: "Aprenda el arte de la rehabilitación",
 
 		//Stretching
-		stretching:"extensión",
-		stretchingCourse:"curso",
-		stretchingText:"El Curso de Estiramiento, desarrollado por Pipi, ofrece un enfoque único para mejorar la flexibilidad y el bienestar. Con la experiencia de Pipi, los participantes son guiados a través de técnicas de estiramiento innovadoras diseñadas para mejorar el rango de movimiento y reducir la tensión muscular. Este curso permite a las personas priorizar el cuidado personal y desbloquear el potencial de su cuerpo para mejorar la movilidad y la salud general.",
-		stretchingAvailable:"Disponible en ambas",
-		stretchingSpanish:"Española",
-		stretchingAnd:" y ",
-		stretchingEnglish:"Inglesa",
-		stretchingStart:"empezar ahora",
-		stretchingBased:"según tus necesidades*",
+		stretching: "extensión",
+		stretchingCourse: "curso",
+		stretchingText: "El Curso de Estiramiento, desarrollado por Pipi, ofrece un enfoque único para mejorar la flexibilidad y el bienestar. Con la experiencia de Pipi, los participantes son guiados a través de técnicas de estiramiento innovadoras diseñadas para mejorar el rango de movimiento y reducir la tensión muscular. Este curso permite a las personas priorizar el cuidado personal y desbloquear el potencial de su cuerpo para mejorar la movilidad y la salud general.",
+		stretchingAvailable: "Disponible en ambas",
+		stretchingSpanish: "Española",
+		stretchingAnd: " y ",
+		stretchingEnglish: "Inglesa",
+		stretchingStart: "empezar ahora",
+		stretchingBased: "según tus necesidades*",
+
+		// CONTACT
+		contact: "Mis contactos",
 
 		// Footer
+		footerCopyright: "Copyright © 2024 por",
+		footerTissen: "Tissen Estudio",
+		footerPowered: "motorizada"
+
 	},
 }
 

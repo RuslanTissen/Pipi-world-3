@@ -1,15 +1,17 @@
-import React from 'react'
-import "./Contact.scss"
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
+import React, { useContext } from 'react';
+import "./Contact.scss";
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { SiGmail, SiUpwork } from "react-icons/si";
-
+import trans from '../../Translate.js';
+import { Context } from '../../Context.js';
 
 function Contact() {
+	const { lang } = useContext(Context)
 
 	return (
 		<div className='contact' id='contact'>
 			<div className="contact__title-box">
-				<p className="contact__title-box--title">MY Contacts</p>
+				<p className="contact__title-box--title">{trans[lang].contact}</p>
 				<div className="contact__title-box--underline-dig"></div>
 				<div className="contact__title-box--underline-thin"></div>
 			</div>
