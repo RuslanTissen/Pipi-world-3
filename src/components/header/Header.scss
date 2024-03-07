@@ -29,7 +29,7 @@
 					display: block;
 					svg {
 						font-size: 1.1rem;
-						color: #e8c061;
+						color: #BF97D5;
 						margin: 0 0 2px 0;
 					}
 				}
@@ -44,7 +44,7 @@
 			transition: all 0.3s ease-in-out;
 			svg {
 				font-size: clamp(3rem, 3vw, 4rem);
-				color: #e8c061;
+				color: #BF97D5;
 				margin: 5px;
 				transition: all 0.2s ease-in-out;
 			}
@@ -78,14 +78,12 @@
 			}
 			.sprachen {
 				display: flex;
-				justify-content: space-between;
-				padding: 0 2rem;
 				button {
 					border: none;
 					border-radius: 10px;
 					padding-block: 4px;
-					width: clamp(4rem, 3vw, 6rem);
-					background: rgba(0, 0, 0, 0.5);
+					padding: 0 2rem;
+					background: rgba(0, 0, 0, 0);
 					color: white;
 					cursor: pointer;
 				}
@@ -137,7 +135,7 @@
 								display: block;
 								svg {
 									font-size: 1.1rem;
-									color: #e8c061;
+									color: #BF97D5;
 									margin: 0 0 2px 0;
 								}
 							}
@@ -211,7 +209,7 @@
 					.lis button:hover,
 					.dropdown .link:hover,
 					.dropdown-menu button:hover {
-						color: #e8c061;
+						color: #BF97D5;
 					}
 				}
 			}
