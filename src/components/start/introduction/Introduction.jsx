@@ -30,8 +30,8 @@ function Introduction() {
 			<p className='introduction__container--moto'>{trans[lang].introTitle}	</p>
 			<p className='introduction__container--moto-italice'> {trans[lang].introText}</p>
 			<div className="container--button">
-				<NavLink className="container--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].introBook}</NavLink>
-				<NavLink className="container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
+				<NavLink className="container--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].introBook} <FaArrowRight /></NavLink>
+				{/* <NavLink className="container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink> */}
 			</div>
 		</div>
 	)

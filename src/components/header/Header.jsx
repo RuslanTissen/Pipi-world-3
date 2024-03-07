@@ -52,7 +52,7 @@ function Header() {
 	return (
 		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>
-				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>PIPI` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink> </li>
+				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>PRISCILA` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink> </li>
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
@@ -71,7 +71,7 @@ function Header() {
 			<div className='header__big-container' >
 				<div className="ul__container">
 					<ul className='first-ul'>
-					<li className='li1'><NavLink to="*" onClick={scrollToTheTop}><span>PIPI` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink> </li>
+					<li className='li1'><NavLink to="*" onClick={scrollToTheTop}><span>PRISCILA` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink> </li>
 					</ul>
 
 					<ul className="second-ul">

@@ -23,8 +23,8 @@ function About() {
 					<div className="about__container--text-container__text-about">{trans[lang].aboutText}
 					</div>
 					<div className="about__container--button">
-						<NavLink className="about__container--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].aboutContact} </NavLink>
-						<NavLink className="about__container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
+						<NavLink className="about__container--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].aboutContact} <FaArrowRight /> </NavLink>
+						{/* <NavLink className="about__container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink> */}
 					</div>
 				</div>
 			</div>

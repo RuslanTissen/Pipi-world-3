@@ -25,8 +25,8 @@ function Straching() {
 					<div className="straching__text-container--text-about">{trans[lang].stretchingText}					</div>
 					<p className='straching__languages'>{trans[lang].stretchingAvailable}<font color="rgb(163,84,89); font-weight: 800"> {trans[lang].stretchingSpanish} </font>{trans[lang].stretchingAnd}  <font color="rgb(163,84,89);  font-weight: 800"> {trans[lang].stretchingEnglish}</font></p>
 					<div className="straching__button">
-						<NavLink className="straching__button--text" to="Contact" onClick={scrollToTheTop}>{trans[lang].stretchingStart}</NavLink>
-						<NavLink className="straching__button--arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
+						<NavLink className="straching__button--text" to="Contact" onClick={scrollToTheTop}>{trans[lang].stretchingStart}<FaArrowRight /></NavLink>
+						{/* <NavLink className="straching__button--arrow" to="Contact" onClick={scrollToTheTop}> </NavLink> */}
 					</div>
 					{/* <p className='straching__languages'>The price is flexible, either </p> */}
 					<div className="straching__price-box"><span>$</span><span>25 -</span> <span> $</span><span> 60</span> </div>

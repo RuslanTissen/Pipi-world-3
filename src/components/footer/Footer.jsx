@@ -16,7 +16,7 @@ function Footer() {
 		<div className='footer'>
 
 			<div className="footer__logo footer__operation--block">
-				<h2 className='footer__logo--logo-box' ><NavLink to="*" onClick={scrollToTheTop}><span>PIPI` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink></h2>
+				<h2 className='footer__logo--logo-box' ><NavLink to="*" onClick={scrollToTheTop}><span>PRISCILA` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink></h2>
 
 				<p>{trans[lang].footerCopyright} <a href="https://tissen.tech/" target='_blank'>{trans[lang].footerTissen}</a> {trans[lang].footerPowered}</p>
 

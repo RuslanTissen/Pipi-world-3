@@ -31,8 +31,8 @@ function Pricing() {
 				<div className="price__box"><span>$</span><span>200</span> </div>
 				<p>{trans[lang].pricingWeeks}</p>
 				<div className="success__price--button">
-					<NavLink className="success__price--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].pricingStart} </NavLink>
-					<NavLink className="success__price--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
+					<NavLink className="success__price--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].pricingStart} <FaArrowRight /> </NavLink>
+					{/* <NavLink className="success__price--button-arrow" to="Contact" onClick={scrollToTheTop}></NavLink> */}
 				</div>
 
 				<div className="success__price--text-box">
@@ -51,8 +51,8 @@ function Pricing() {
 				<div className="price__box"><span>$</span><span>500</span> </div>
 				<p>{trans[lang].pricingWeeks}8 weeks</p>
 				<div className="success__price--button">
-					<NavLink className="success__price--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].pricingStart}  </NavLink>
-					<NavLink className="success__price--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
+					<NavLink className="success__price--button-text" to="Contact" onClick={scrollToTheTop}>{trans[lang].pricingStart} <FaArrowRight /> </NavLink>
+					{/* <NavLink className="success__price--button-arrow" to="Contact" onClick={scrollToTheTop}> </NavLink> */}
 				</div>
 				<div className="success__price--text-box">
 					<ul>
